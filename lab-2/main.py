@@ -11,7 +11,7 @@ import numpy as np
 
 'X(k) - reprezentacja w dziedzinie czestotliwosci a +ib'
 'x(n) - próbki reprezentujące sygnał w dziedznie czasu'
-'i - jednostka urojona (i^^2 = -1'
+'i - jednostka urojona (i^^2 = -1)'
 'N - iczba próbek sygnału w dziedzinie czasu i częstotliwości'
 
 'tablica dla x(k) = x(n)[np.cos((2*np.pi*n*k)/N) - sin((2j*np.pi*n*k)/4)'
@@ -50,7 +50,6 @@ for n in range(N):
 'Zad 1'
 'Implementacja DFT'
 
-'DOSTOSOWAC PARAMETRY DO FUNKCJI Z POPRZEDNICH ZAJĘĆ'
 def DFT(x):
     N = len(x)
     n = np.arange(N)
@@ -60,3 +59,7 @@ def DFT(x):
     X = np.dot(e,x)
 
     return X
+
+# Obliczenie DFT dla przykładowej funkcji
+X = DFT(tab)
+print(X)
