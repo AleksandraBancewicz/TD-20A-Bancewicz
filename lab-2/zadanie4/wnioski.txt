@@ -1,0 +1,51 @@
+BANCEWICZ ALEKSANDRA
+ba34753
+
+Lab 2
+Zad 4 - WNIOSKI
+
+Czasy obliczeń DFT dla poszczególnych sygnałów: 
+[3.4147231578826904, 3.3661649227142334, 3.418752670288086, 3.519707441329956, 
+11.379431247711182, 4.952536344528198, 7.582927227020264, 3.468064785003662, 
+3.419706106185913, 3.4532408714294434]
+Sumaryczny czas obliczeń DFT: 47.97525477409363
+
+Czasy obliczeń FFT dla poszczególnych sygnałów: [0.011011123657226562, 0.0, 0.0, 0.0, 
+0.0, 0.0010004043579101562, 0.0, 0.0, 0.0, 0.0]
+Sumaryczny czas obliczeń FFT: 0.012011528015136719
+
+             Sygnał  Czas DFT [s]  Czas FFT [s]
+0  Zadanie 1 - tab1      3.414723      0.011011
+1     Zadanie 2 - y      3.366165      0.000000
+2     Zadanie 2 - z      3.418753      0.000000
+3     Zadanie 2 - v      3.519707      0.000000
+4    Zadanie 3 - u1     11.379431      0.000000
+5    Zadanie 3 - u2      4.952536      0.001000
+6    Zadanie 3 - u3      7.582927      0.000000
+7   Zadanie 4 - bk1      3.468065      0.000000
+8   Zadanie 4 - bk2      3.419706      0.000000
+9   Zadanie 4 - bk3      3.453241      0.000000
+
+Porównanie czasów obliczeń DFT i FFT:
+Czasy obliczeń DFT dla poszczególnych sygnałów wynosiły od około 3.37 do 11.38 sekund, 
+z sumarycznym czasem obliczeń wynoszącym około 47.98 sekund.
+Czasy obliczeń FFT dla tych samych sygnałów były znacznie krótsze, 
+wynosząc od 0 do 0.011 sekund, z sumarycznym czasem obliczeń wynoszącym około 0.012 sekund.
+
+Wydajność FFT:
+FFT (Fast Fourier Transform) jest znacznie szybszą metodą obliczeń w porównaniu do DFT 
+(Discrete Fourier Transform). Jest to szczególnie widoczne w przypadku sygnałów o większej 
+liczbie próbek, gdzie różnica czasów obliczeń może być ogromna.
+FFT optymalizuje proces przetwarzania sygnałów, co jest szczególnie korzystne 
+w zastosowaniach wymagających szybkiego przetwarzania danych.
+
+Wykorzystanie DFT i FFT w praktyce:
+W praktycznych zastosowaniach, gdzie czas obliczeń jest krytyczny, 
+zdecydowanie preferowane jest stosowanie FFT zamiast DFT.
+FFT jest standardowym algorytmem w wielu dziedzinach, takich jak przetwarzanie sygnałów, 
+analiza spektralna, telekomunikacja, itp., ze względu na swoją wydajność i szybkość.
+
+Dokładność wyników:
+Pomimo różnic w czasach obliczeń, FFT i DFT powinny dawać porównywalne wyniki 
+w zakresie analizy widmowej. FFT jest algorytmem efektywnym obliczeniowo, 
+ale nie wpływa to na dokładność wyników w zakresie widm amplitudowych.
