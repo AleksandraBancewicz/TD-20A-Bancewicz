@@ -1,0 +1,49 @@
+BANCEWICZ ALEKSANDRA
+ba34753
+
+Lab 4
+Kluczowanie amplitudy, częstotliwości i fazy
+WNIOSKI
+
+ASK (Amplitude Shift Keying)
+
+Szerokość pasma dla ASK wynosi 2 Hz dla wszystkich poziomów: -3dB, -6dB i -12dB.
+To wskazuje, że sygnał ASK ma stosunkowo wąskie pasmo, co jest korzystne w kontekście 
+efektywnego wykorzystania dostępnego pasma częstotliwości.
+PSK (Phase Shift Keying)
+
+Szerokość pasma dla PSK wynosi 3 Hz dla poziomów -3dB i -6dB oraz nieco więcej, 3.96 Hz, dla poziomu -12dB.
+Szerokość pasma sygnału PSK jest nieco większa niż dla ASK, co sugeruje, 
+że PSK może wymagać szerszego pasma częstotliwości. Jest to związane z nagłą zmianą fazy, 
+która wprowadza dodatkowe składowe częstotliwościowe.
+FSK (Frequency Shift Keying)
+
+Szerokość pasma dla FSK wynosi około 3.93 Hz dla poziomów -3dB i -6dB oraz 3.96 Hz dla poziomu -12dB.
+Sygnał FSK ma największą szerokość pasma spośród wszystkich analizowanych rodzajów kluczowania. 
+To wynika z faktu, że FSK wykorzystuje różne częstotliwości nośne dla reprezentacji bitów 0 i 1, 
+co powoduje rozszerzenie widma sygnału.
+
+Ogólne wnioski
+Efektywność pasma
+ASK jest najbardziej efektywny pod względem zajętości pasma, ale może być bardziej podatny na zakłócenia, 
+ponieważ jego charakterystyka jest ściśle zależna od amplitudy sygnału.
+Odporność na zakłócenia
+PSK, dzięki modulacji fazy, jest bardziej odporny na zakłócenia w porównaniu do ASK, 
+co czyni go bardziej niezawodnym w warunkach niskiej jakości sygnału. Jednak wymaga szerszego pasma.
+Elastyczność
+FSK, choć zajmuje największe pasmo, jest często używany w systemach radiowych i transmisji danych, 
+gdzie odporność na zakłócenia i prostota demodulacji są kluczowe. Dwa różne sygnały nośne mogą być łatwo odróżnione,
+co czyni FSK bardzo elastycznym.
+Wybór techniki modulacji
+Wybór techniki modulacji zależy od specyficznych wymagań systemu komunikacyjnego. 
+Jeśli dostępne pasmo jest ograniczone, ASK może być najlepszym wyborem. 
+Jeśli kluczowa jest odporność na zakłócenia, warto rozważyć PSK. W systemach, gdzie elastyczność i niezawodność 
+są najważniejsze, FSK może być preferowanym wyborem.
+
+Podsumowanie
+Analiza szerokości pasma dla różnych technik modulacji wykazała, że każda z nich ma swoje zalety i wady. 
+ASK oferuje najwęższe pasmo, co jest korzystne w warunkach ograniczonych zasobów częstotliwościowych, 
+ale może być mniej niezawodne. PSK, choć wymaga szerszego pasma, oferuje większą odporność na zakłócenia. 
+FSK, zajmując największe pasmo, oferuje dużą elastyczność i prostotę w demodulacji. 
+Wybór odpowiedniej techniki modulacji powinien być uzależniony od specyficznych wymagań 
+i warunków danego systemu komunikacyjnego.
