@@ -1,0 +1,71 @@
+BANCEWICZ ALEKSANDRA
+ba34753
+
+Lab 3
+Modulacje amplitudy i kąta
+WNIOSKI
+
+Wynik z konsoli:
+Szerokość pasma dla zaa: B3dB = 100.0 Hz, B6dB = 100.0 Hz, B12dB = 100.0 Hz
+Szerokość pasma dla zab: B3dB = 108.0 Hz, B6dB = 108.0 Hz, B12dB = 108.0 Hz
+Szerokość pasma dla zac: B3dB = 108.0 Hz, B6dB = 108.0 Hz, B12dB = 108.0 Hz
+Szerokość pasma dla zpa: B3dB = 100.0 Hz, B6dB = 100.0 Hz, B12dB = 100.0 Hz
+Szerokość pasma dla zpb: B3dB = 116.0 Hz, B6dB = 124.0 Hz, B12dB = 124.0 Hz
+Szerokość pasma dla zpc: B3dB = 172.0 Hz, B6dB = 172.0 Hz, B12dB = 180.0 Hz
+Szerokość pasma dla zfa: B3dB = 100.0 Hz, B6dB = 100.0 Hz, B12dB = 100.0 Hz
+Szerokość pasma dla zfb: B3dB = 100.0 Hz, B6dB = 100.0 Hz, B12dB = 108.0 Hz
+Szerokość pasma dla zfc: B3dB = 116.0 Hz, B6dB = 116.0 Hz, B12dB = 124.0 Hz
+
+Szerokość pasma dla sygnałów zmodulowanych amplitudowo (AM):
+
+kaa = 0.5: Szerokość pasma wynosi 100 Hz niezależnie od poziomu dB. 
+To wskazuje, że modulacja z mniejszym współczynnikiem modulacji (kaa) 
+prowadzi do mniejszego rozrzutu częstotliwości.
+kab = 6: Szerokość pasma wzrasta do 108 Hz, co sugeruje, 
+że większy współczynnik modulacji zwiększa szerokość pasma.
+kac = 125: Szerokość pasma pozostaje taka sama jak dla kab (108 Hz), 
+co może sugerować, że po osiągnięciu pewnego poziomu współczynnika modulacji, 
+dalszy wzrost nie wpływa znacząco na szerokość pasma.
+
+Szerokość pasma dla sygnałów zmodulowanych fazowo (PM):
+
+kpa = 0.25: Szerokość pasma wynosi 100 Hz dla wszystkich poziomów dB. 
+Podobnie jak w przypadku AM, mały współczynnik modulacji skutkuje mniejszym rozrzutem częstotliwości.
+kpb = 2.75: Szerokość pasma wzrasta, osiągając 116 Hz przy -3 dB, 124 Hz przy -6 dB 
+i pozostaje 124 Hz przy -12 dB. To sugeruje, 
+że większy współczynnik modulacji w PM znacząco zwiększa szerokość pasma.
+kpc = 3π: Szerokość pasma wzrasta znacznie bardziej, osiągając 172 Hz przy -3 i -6 dB 
+oraz 180 Hz przy -12 dB. To wskazuje, że bardzo duży współczynnik modulacji w PM prowadzi 
+do znacznego rozszerzenia pasma.
+
+Szerokość pasma dla sygnałów zmodulowanych częstotliwościowo (FM):
+
+kfa = 0.75: Szerokość pasma wynosi 100 Hz dla wszystkich poziomów dB. 
+Mały współczynnik modulacji w FM, podobnie jak w AM i PM, 
+skutkuje mniejszym rozrzutem częstotliwości.
+kfb = 2.5: Szerokość pasma wynosi 100 Hz przy -3 i -6 dB, 
+ale wzrasta do 108 Hz przy -12 dB. To sugeruje, 
+że większy współczynnik modulacji w FM zaczyna wpływać na szerokość pasma 
+przy niższych poziomach dB.
+kfc = 3π: Szerokość pasma wzrasta do 116 Hz przy -3 i -6 dB 
+oraz 124 Hz przy -12 dB. To wskazuje, że bardzo duży współczynnik modulacji w FM 
+prowadzi do znacznego rozszerzenia pasma, choć nie tak drastycznie jak w przypadku PM.
+
+Ogólne wnioski:
+Współczynnik modulacji: Wzrost współczynnika modulacji (ka, kp, kf) 
+generalnie prowadzi do zwiększenia szerokości pasma sygnału.
+Rodzaj modulacji: Modulacja fazowa (PM) wydaje się mieć największy wpływ 
+na szerokość pasma przy dużych wartościach współczynnika modulacji, 
+co prowadzi do znacznie większego rozszerzenia pasma w porównaniu z AM i FM.
+Poziom dB: W większości przypadków szerokość pasma nie zmienia się drastycznie 
+w zależności od poziomu dB (3 dB, 6 dB, 12 dB), z wyjątkiem niektórych sygnałów, 
+gdzie większe różnice są zauważalne przy wyższych współczynnikach modulacji.
+
+
+
+
+
+
+
+
+
